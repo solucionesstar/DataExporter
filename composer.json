@@ -1,0 +1,20 @@
+{
+  "name": "solstar/dataexporter",
+  "description": "Utility to gather data from other servers",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Gabby Tee",
+      "email": "joaqt23@gmail.com"
+    }
+  ],
+  "require": {
+    "php-curl-class/php-curl-class": "^4.6"
+  },
+  "require-dev": {
+    "codeception/codeception": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
